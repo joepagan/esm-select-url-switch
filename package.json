@@ -1,0 +1,25 @@
+{
+  "name": "esm-select-url-switch",
+  "version": "1.0.0",
+  "description": "Creates a change event listener for all targeted select elements where you wish for the page to follow the url located in the option value",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joepagan/esm-select-url-switch.git"
+  },
+  "keywords": [
+    "esm",
+    "module",
+    "webpack",
+    "select"
+  ],
+  "author": "Joe Pagan <joepagan@gmail.com> (https://jpag.io)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joepagan/esm-select-url-switch/issues"
+  },
+  "homepage": "https://github.com/joepagan/esm-select-url-switch#readme"
+}
