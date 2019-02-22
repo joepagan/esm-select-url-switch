@@ -5,7 +5,7 @@
  * @param {*} selectSelector A selector for select elements
  */
 export default function selectUrlSwitch(selectSelector) {
-  const selects = document.querySelectorAll(selectSelector);
+  const selects = [...document.querySelectorAll(selectSelector)];
   if (selects.length) {
     selects.forEach((select) => {
       select.addEventListener('change', () => {
